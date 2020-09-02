@@ -2,7 +2,7 @@
 Bot qui vérifie les dates disponibles toutes les 10 secondes et peut modifier la date de son examen s'il y en a une disponible dans la fourchette choisie.
 
 ## Setup
-- ```bash pip install -r requirements.txt ```
+- ```pip install -r requirements.txt```
 - Télécharger la version adéquate du chromedriver (Paramètres -> A propos de chrome -> Version {Numéro de votre version}) :
   https://chromedriver.chromium.org/downloads
 - Placer chromedriver.exe dans le même dossier que pratique.py
