@@ -1,4 +1,4 @@
-# Bot Examen Pratique Genève
+# Script Examen Pratique/Théorique Genève
 Bot qui vérifie les dates disponibles toutes les 10 secondes et peut modifier la date de son examen s'il y en a une disponible dans la fourchette choisie.
 Profite des gens qui annulent pour avoir une date d'examen très rapidement.
 
