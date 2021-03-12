@@ -15,4 +15,4 @@ Bot qui vérifie les dates disponibles toutes les 10 secondes et peut modifier l
 Ca ne sert a rien de laisser tourner h24, les gens se desistent le plus souvent en soiree/fin d'apres-midi.
 
 ## Issues
-- Pour que le script fonctionne, il doit y avoir au moins 5 places disponibles (peu importe la date). Au moment ou j'ai initialement codé ca, ce n'était pas un probleme. Maintenant, oui (parfois) a cause du covid. Si vous modifiez l'algorithme pour enlever cette contrainte, un pull request est le bienvenu.
+- Pour que le script fonctionne, il doit y avoir au moins 5 places disponibles (peu importe la date). Au moment ou j'ai initialement codé ca, ce n'était pas un probleme. Maintenant, oui (parfois) a cause du covid. Si vous modifiez l'algorithme pour enlever cette contrainte, un pull request est le bienvenu. En attendant, **une solution est de changer la ligne 41 en remplacant 5 par 1**, mais cela veut dire que si la premiere date disponible se trouve avant la fourchette choisie, le script ne continue pas a chercher.
